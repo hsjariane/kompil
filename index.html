@@ -1,0 +1,55 @@
+body { 
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('b.jpg');
+  background-color: #B39DDB;
+  background-size: cover;
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #fff;
+  padding: 60px 80px;
+  border-radius: 30px;  
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 180px; /* Add this line to increase height */
+}
+timerElement.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+
+<script>
+  let totalSeconds10 = 600; 
+
+  const timerElement10 = document.getElementById("timer10");
+  const quizForm10 = document.getElementById("quizForm10");
+
+  function updateTimer10() {
+    const minutes = Math.floor(totalSeconds10 / 60);
+    const seconds = totalSeconds10 % 60;
+    timerElement10.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds10 > 0) {
+      totalSeconds10--;
+    } else {
+      clearInterval(timerInterval10);
+      alert("Time's up!");
+      quizForm10.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval10 = setInterval(updateTimer10, 1000);
+</script>
+
+
+
+
+<div id="timer17" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>

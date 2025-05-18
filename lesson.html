@@ -1,0 +1,2273 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8">
+  <title>KOMPIL Kurso</title>
+  <style>
+  body { 
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('catt.jpg');
+  background-color: #B39DDB;
+  background-size: cover;
+  background-repeat: repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+   .card {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  /* Other card styling */
+}
+
+#linggo1Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+#linggo2Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+#linggo3Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+#linggo4Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+#linggo5Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+#linggo7Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+#linggo8Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+#linggo9Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+#linggo10Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+#linggo11Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+#linggo13Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+#linggo14Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+#linggo15Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+#linggo16Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+#linggo17Quiz {
+  max-height: 80vh; /* Adjust the max height as needed */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  padding-bottom: 20px; /* Optional: Adds padding at the bottom */
+}
+
+
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #333;
+    }
+.btn {
+  margin-top: 20px;
+  background-color: #b973cc;
+  color: white;
+  padding: 20px 40px; /* Increased padding for more height and width */
+  border: none;
+  border-radius: 12px; /* More curvy */
+  font-size: 20px; /* Larger text */
+  font-weight: bold;
+  width: 100%; /* Full width of container */
+  height: 90px; /* Optional fixed height */
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+
+    .btn:hover {
+      background-color: #B39DDB;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .week-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .lesson-content {
+      margin-top: 20px;
+      text-align: left;
+      line-height: 1.6;
+      
+    }
+ .back-button {
+  margin-top: 20px;
+  padding: 20px 40px; /* Increased padding for more height and width */
+  background-color: #9d3bb8;
+  color: white;
+  border: none;
+  border-radius: 10px; /* More curve */
+  cursor: pointer;
+  font-size: 20px; /* Larger text */
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  width: 90%; /* Optional: makes the button full width */
+  text-align: center;
+}
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+    .back-button:hover {
+      background-color: #0056b3;
+    }
+
+    .hidden {
+    display: none;
+  }
+.quiz-card {
+  width: 100%;
+  max-width: 1000px;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  margin: 40px auto;
+  background: #fff;
+}
+
+
+  
+  </style>
+</head>
+<body>
+
+<!-- LOGIN KOMPIL BUTTON -->
+<div class="card" id="loginSection">
+  <h1>Magandang Buhay!</h1>
+  <button class="btn" onclick="proceed()">Kontekstwalisadong Komunikasyon sa Filipino</button>
+</div>
+
+<!-- COURSE BUTTONS -->
+<div class="card hidden" id="menuSection">
+  <h1>Pumili ng Bahagi ng Kurso</h1>
+  <div class="btn-group">
+    <button class="btn" onclick="showWeeks('prelim')">PRELIM</button>
+    <button class="btn" onclick="showWeeks('midterm')">MIDTERM</button>
+    <button class="btn" onclick="showWeeks('finals')">FINALS</button>
+  </div>
+</div>
+
+<!-- WEEK SELECTION -->
+<div class="card hidden" id="weeksSection">
+  <h1>Pumili ng Linggo</h1>
+  <div id="weekButtons" class="week-group"></div>
+</div>
+
+<!-- LESSON SELECTION -->
+<div class="card hidden" id="lessonSection">
+  <h1>Pumili ng Nilalaman</h1>
+  <div class="btn-group">
+    <button class="btn" onclick="showLessonContent()">ARALIN</button>
+    <button class="btn" onclick="showQuiz()">PAGSUSULIT</button>
+  </div>
+</div>
+
+<!-- LESSON CONTENT FOR LINGGO 1 -->
+<div class="card hidden" id="linggo1Content">
+  <a href="linggo1.html">
+     <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 1
+    </button>
+  </a>
+  </div>
+    
+
+
+
+<!-- QUIZ FOR LINGGO 1 -->
+<div class="card quiz-card hidden" id="linggo1Quiz">
+
+  <h1>PAGSUSULIT – Linggo 1</h1>
+  <div class="lesson-content">
+    <form id="quizForm">
+
+<!-- Timer Display -->
+<div id="timer" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1. Ayon kay Henry Gleason, ang wika ay:</strong></p>
+      <label><input type="radio" name="q1" value="a"> isang kasangkapan sa komunikasyon</label><br>
+      <label><input type="radio" name="q1" value="b"> masistemang balangkas ng binibigkas na tunog</label><br>
+      <label><input type="radio" name="q1" value="c"> anyo ng pagpapahayag ng damdamin</label><br><br>
+
+      <p><strong>2. Alin sa mga sumusunod ang nilalaman ng Saligang Batas ng 1935 ukol sa wika?</strong></p>
+      <label><input type="radio" name="q2" value="a"> Ginawang Filipino ang wika</label><br>
+      <label><input type="radio" name="q2" value="b"> Ginawang Tagalog ang opisyal na wika</label><br>
+      <label><input type="radio" name="q2" value="c"> Gagawa ng hakbang upang paunlarin ang wikang pambansa batay sa katutubong wika</label><br><br>
+      <p><strong>3. Aling teorya ng wika ang nagsasabing nagmula ito sa tunog ng kapaligiran?</strong></p>
+      <label><input type="radio" name="q3" value="a"> Teoryang Dingdong</label><br>
+      <label><input type="radio" name="q3" value="b"> Teoryang Bow-wow</label><br>
+      <label><input type="radio" name="q3" value="c"> Teoryang Pooh-pooh</label><br><br>
+
+      <p><strong>4. Ano ang sinasabi ng Saligang Batas ng 1987 ukol sa wika?</strong></p>
+      <label><input type="radio" name="q4" value="a"> Itaguyod ang Tagalog bilang wika</label><br>
+      <label><input type="radio" name="q4" value="b"> Filipino bilang wikang pambansa at gamitin sa edukasyon at komunikasyon</label><br>
+      <label><input type="radio" name="q4" value="c"> Gamitin lamang sa seremonyang pampamahalaan</label><br><br>
+
+      <p><strong>5. Alin sa sumusunod ang naglalarawan sa Teoryang Ta-ta?</strong></p>
+      <label><input type="radio" name="q5" value="a"> Wika mula sa ritwal</label><br>
+      <label><input type="radio" name="q5" value="b"> Wika mula sa pag-ibig</label><br>
+      <label><input type="radio" name="q5" value="c"> Wika mula sa kumpas ng kamay</label><br><br>
+
+      <button type="button" class="btn" onclick="submitQuiz()">Isumite</button>
+    </form>
+    <p id="quizResult" style="margin-top: 20px; font-weight: bold;"></p>
+    <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+<script>
+    let totalSeconds = 600; // 10 minutes
+
+    const timerElement = document.getElementById("timer");
+    const quizForm = document.getElementById("quizForm");
+
+    function updateTimer() {
+      const minutes = Math.floor(totalSeconds / 60);
+      const seconds = totalSeconds % 60;
+      timerElement.textContent = 
+       timerElement.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+
+      if (totalSeconds > 0) {
+        totalSeconds--;
+      } else {
+        clearInterval(timerInterval);
+        alert("Time's up!");
+        quizForm.submit(); // auto-submit when time is up
+      }
+    }
+
+    const timerInterval = setInterval(updateTimer, 1000);
+  </script>
+
+  </div>
+</div>
+
+<!-- LESSON CONTENT FOR LINGGO 2 -->
+<div class="card hidden" id="linggo2Content">
+  <a href="linggo2.html">
+    <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 2
+    </button>
+  </a>
+</div>
+
+  <!-- QUIZ FOR LINGGO 2 -->
+<div class="card quiz-card hidden" id="linggo2Quiz">
+  <h1>PAGSUSULIT – Linggo 2</h1>
+  <div class="lesson-content">
+    <form id="quizForm2">
+      <!-- Timer Display -->
+<div id="timer2" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1. Siya ang sumulat ng imperyalismo na nagtanggol sa katutubong wika at tinuligsa ang dulot ng wikang banyaga.</strong></p>
+      <label><input type="radio" name="q1" value="a"> Jose Dela Cruz</label><br>
+      <label><input type="radio" name="q1" value="b"> Jose Corazon De Jesus</label><br>
+      <label><input type="radio" name="q1" value="c"> Francisco Baltazar</label><br><br>
+
+      <p><strong>2. Ito ang taon na nagsimulang isinigaw sa katipunan na maing pambansang wika ang Pilipino.</strong></p>
+      <label><input type="radio" name="q2" value="a"> 1959</label><br>
+      <label><input type="radio" name="q2" value="b"> 1987</label><br>
+      <label><input type="radio" name="q2" value="c"> 1897</label><br><br>
+
+      <p><strong>3. Sino ang ama ng wikang pambansa?</strong></p>
+      <label><input type="radio" name="q3" value="a"> Manuel L. Quezon</label><br>
+      <label><input type="radio" name="q3" value="b"> Jose Rizal</label><br>
+      <label><input type="radio" name="q3" value="c"> Emilio Aguinaldo</label><br><br>
+      <p><strong>4. Alin sa mga sumusunod ang katangian ng wikang Filipino?</strong></p>
+      <label><input type="radio" name="q4" value="a"> Ito ay patay na wika</label><br>
+      <label><input type="radio" name="q4" value="b"> Ito ay banyaga</label><br>
+      <label><input type="radio" name="q4" value="c"> Ito ay buhay at ginagamit sa araw-araw</label><br><br>
+
+      <p><strong>5. Kailan ipinahayag ang Batas Komonwelt Blg. 570?</strong></p>
+      <label><input type="radio" name="q5" value="a"> 1946</label><br>
+      <label><input type="radio" name="q5" value="b"> 1935</label><br>
+      <label><input type="radio" name="q5" value="c"> 1987</label><br><br>
+
+      <p><strong>6. Ano ang ibig sabihin ng “multilingguwalismo”?</strong></p>
+      <label><input type="radio" name="q6" value="a"> Isa lamang ang alam na wika</label><br>
+      <label><input type="radio" name="q6" value="b"> Maraming wika ang ginagamit</label><br>
+      <label><input type="radio" name="q6" value="c"> Wala ni isang wika</label><br><br>
+
+      <p><strong>7. Ano ang gamit ng wika sa edukasyon?</strong></p>
+      <label><input type="radio" name="q7" value="a"> Pampalipas oras</label><br>
+      <label><input type="radio" name="q7" value="b"> Midyum ng pagtuturo at pagkatuto</label><br>
+      <label><input type="radio" name="q7" value="c"> Pampatawa</label><br><br>
+
+      <p><strong>8. Ano ang tawag sa varayti ng wika batay sa lokasyon?</strong></p>
+      <label><input type="radio" name="q8" value="a"> Idyolek</label><br>
+      <label><input type="radio" name="q8" value="b"> Diyalekto</label><br>
+      <label><input type="radio" name="q8" value="c"> Sosyolek</label><br><br>
+
+      <p><strong>9. Anong uri ng varayti ng wika ang ginagamit sa mga propesyon?</strong></p>
+      <label><input type="radio" name="q9" value="a"> Jargon</label><br>
+      <label><input type="radio" name="q9" value="b"> Pidgin</label><br>
+      <label><input type="radio" name="q9" value="c"> Creole</label><br><br>
+
+      <p><strong>10. Ano ang ibig sabihin ng sosyolek?</strong></p>
+      <label><input type="radio" name="q10" value="a"> Wika ng mga propesyonal</label><br>
+      <label><input type="radio" name="q10" value="b"> Wika batay sa estado sa lipunan</label><br>
+      <label><input type="radio" name="q10" value="c"> Wika ng kabataan</label><br><br>
+
+      <button type="button" class="btn" onclick="submitQuiz2()">Isumite</button>
+    </form>
+    <p id="quizResult2" style="margin-top: 20px; font-weight: bold;"></p>
+   <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+<script>
+  let totalSeconds2 = 600; // 10 minutes for Quiz 2
+
+  const timerElement2 = document.getElementById("timer2");
+  const quizForm2 = document.getElementById("quizForm2");
+
+  function updateTimer2() {
+    const minutes = Math.floor(totalSeconds2 / 60);
+    const seconds = totalSeconds2 % 60;
+    timerElement2.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds2 > 0) {
+      totalSeconds2--;
+    } else {
+      clearInterval(timerInterval2);
+      alert("Time's up!");
+      quizForm2.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval2 = setInterval(updateTimer2, 1000);
+</script>
+  </div>
+</div>
+      
+<!-- LESSON CONTENT FOR LINGGO 3-->
+<div class="card hidden" id="linggo3Content">
+  <a href="linggo3.html">
+    <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 3
+    </button>
+  </a>
+  </div>
+    
+
+<!-- QUIZ FOR LINGGO 3 -->
+<div class="card hidden" id="linggo3Quiz">
+  <h1>PAGSUSULIT – Linggo 3</h1>
+  <div class="lesson-content">
+    <form id="quizForm3">
+       <!-- Timer Display -->
+<div id="timer3" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1. Sa Speaking ni Dell Hymes ito ay tumutukoy sa lugar kung saan isinasagawa ang pakikipag-usap</strong></p>
+      <label><input type="radio" name="q1" value="a"> Act of Sequence</label><br>
+      <label><input type="radio" name="q1" value="b"> Settings</label><br>
+      <label><input type="radio" name="q1" value="c"> Participants</label><br><br>
+
+      <p><strong>2. Uri ng pakikipagkomunikasyon na nagaganap sa dalawa o higit pang tao. </strong></p>
+      <label><input type="radio" name="q2" value="a"> Intrapersonal na komunikasyon</label><br>
+      <label><input type="radio" name="q2" value="b"> Komunikasyong pangmadla </label><br>
+      <label><input type="radio" name="q2" value="c"> Interpersonal na komunikasyon </label><br><br>
+      <p><strong>3. Ito ay modelo ng komunikasyon kung saan walang nagaganap na feedback o tugon mula sa tagatanggap ng mensahe .</strong></p>
+      <label><input type="radio" name="q3" value="a"> Modelo ni Dance</label><br>
+      <label><input type="radio" name="q3" value="b"> Modelo ni Laswell </label><br>
+      <label><input type="radio" name="q3" value="c"> Modelo ni Berlo</label><br><br>
+
+      <p><strong>4. Pagpili ng hanguan ng impormasyon na isa sa mga kakayahang dapat taglayin ng mga mag-aaral sa kanilang pananaliksik</strong></p>
+      <label><input type="radio" name="q4" value="a"> Magdebrief</label><br>
+      <label><input type="radio" name="q4" value="b"> Pagtatala</label><br>
+      <label><input type="radio" name="q4" value="c"> Paggamit ng Internet</label><br><br>
+
+      <p><strong>5.Batis ng impormasyon na ang pinaghahanguan ay mula sa indibidwal o awtoridad  </strong></p>
+      <label><input type="radio" name="q5" value="a">Primaryang batis ng impormasyon </label><br>
+      <label><input type="radio" name="q5" value="b"> Sekondaryang Batis ng Impormasyon</label><br>
+      <label><input type="radio" name="q5" value="c"> Hanguang Elektroniko</label><br><br>
+
+      <p><strong>6.Modelo ng komunikasyon na Ipinapakita ang katanungan na “sino ang nagsabi ng anong mensahe, na anong dayuhan at ano ang magiging epekto nito?” </strong></p>
+      <label><input type="radio" name="q6" value="a">Modelo ni Schramm </label><br>
+      <label><input type="radio" name="q6" value="b">Modelo ni Dance </label><br>
+      <label><input type="radio" name="q6" value="c">Modelo ni Laswell </label><br><br>
+
+      <p><strong>7.Nilalaman ng akronim na SETTINGS ni Dell Hymes na nagpapahayag ng anong uri ng pakikipag-usap ang isinagawa sa komunikasyon  </strong></p>
+      <label><input type="radio" name="q7" value="a"> Ends</label><br>
+      <label><input type="radio" name="q7" value="b"> Genre</label><br>
+      <label><input type="radio" name="q7" value="c"> Act of Sequence</label><br><br>
+
+      <p><strong>8.Nilalaman ng akronim na SETTINGS ni Dell Hymes na nakatuon sa layunin ng pakikipag-usap .  </strong></p>
+      <label><input type="radio" name="q8" value="a"> Keys</label><br>
+      <label><input type="radio" name="q8" value="b"> Instrumentalities</label><br>
+      <label><input type="radio" name="q8" value="c">Ends </label><br><br>
+
+      <p><strong>9. Potensyal na sagabal sa komunikasyon na tumutukoy sa kultura na kinalakihan ng tao na maaaring maging sagabal sa interpretasyon ng mensahe. </strong></p>
+      <label><input type="radio" name="q9" value="a"> Semantikong Sagalal</label><br>
+      <label><input type="radio" name="q9" value="b">Pisyolohikal na Sagabal </label><br>
+      <label><input type="radio" name="q9" value="c">Sikolohikal na Sagabal  </label><br><br>
+
+      <p><strong>10. Ang akronim ni Dell Hymes na may kaugnayan sa paglalahad ng pangungusap  at kung paano ang takbo ng usapan.  </strong></p>
+      <label><input type="radio" name="q10" value="a">Participants </label><br>
+      <label><input type="radio" name="q10" value="b"> Instrumentalities</label><br>
+      <label><input type="radio" name="q10" value="c">Act of Sequence  </label><br><br>
+
+      <button type="button" class="btn" onclick="submitQuiz3()">Isumite</button>
+    </form>
+    <p id="quizResult3" style="margin-top: 20px; font-weight: bold;"></p>
+   <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+<script>
+  let totalSeconds3 = 600; 
+
+  const timerElement3 = document.getElementById("timer3");
+  const quizForm3 = document.getElementById("quizForm3");
+
+  function updateTimer3() {
+    const minutes = Math.floor(totalSeconds3 / 60);
+    const seconds = totalSeconds3 % 60;
+    timerElement3.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds3 > 0) {
+      totalSeconds3--;
+    } else {
+      clearInterval(timerInterval3);
+      alert("Time's up!");
+      quizForm3.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval3 = setInterval(updateTimer3, 1000);
+</script>
+</div>
+</div>
+      
+
+<!-- LESSON CONTENT FOR LINGGO 4-->
+<div class="card hidden" id="linggo4Content">
+  <a href="linggo4.html">
+     <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 4
+   </a>
+  </div>
+    
+
+<!-- QUIZ FOR LINGGO 4-->
+<div class="card hidden" id="linggo4Quiz">
+  <h1>PAGSUSULIT – Linggo 4</h1>
+  <div class="lesson-content">
+    <form id="quizForm4">
+      
+      <div id="timer4" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1.Ito ay siksik at pinaikling bersyon ng teksto.  </strong></p>
+      <label><input type="radio" name="q1" value="a"> Pagsulat</label><br>
+      <label><input type="radio" name="q1" value="b"> Pagbasa</label><br>
+      <label><input type="radio" name="q1" value="c">Buod </label><br><br>
+
+      <p><strong>2.Pinaikli ang pangunahing punto ng isang babasahin karaniwan itong ginagamit bilang pabalat sa mga nobela o di kaya ay naglalaan ng isa o dalawang pahina sa likod  ng bahagi ng nobela.  </strong></p>
+      <label><input type="radio" name="q2" value="a">Preci </label><br>
+      <label><input type="radio" name="q2" value="b"> Sintesis</label><br>
+      <label><input type="radio" name="q2" value="c"> Lagom o Sinopsis</label><br><br>
+
+      <p><strong>3.Ito ay modelo ng komunikasyon kung saan walang nagaganap na feedback o tugon mula sa tagatanggap ng mensahe .  </strong></p>
+      <label><input type="radio" name="q3" value="a">Modelo ni Dance </label><br>
+      <label><input type="radio" name="q3" value="b"> Modelo ni Laswell</label><br>
+      <label><input type="radio" name="q3" value="c"> Modelo ni Berlo</label><br><br>
+
+      <p><strong>4. Pinagsama-sama ang mga impormasyon na nakalap mula sa mga tao o manunulat, libro o pananaliksik upang makabuo ng isang malinaw na pagbubuod o babasahin na mayroong buo o kumpletong datos.</strong></p>
+      <label><input type="radio" name="q4" value="a"> Preci</label><br>
+      <label><input type="radio" name="q4" value="b"> Sintesis</label><br>
+      <label><input type="radio" name="q4" value="c">Hawig </label><br><br>
+
+
+      <p><strong>5. Uri ng abstrak na mababasa rito ang kaligiran, layunin at tuon ng papel. Inilalarawan ng deskriptibong abstrak ang pangunahing ideya ng artikulo, ulat o pag-aaral. </strong></p>
+      <label><input type="radio" name="q5" value="a">Abstrak </label><br>
+      <label><input type="radio" name="q5" value="b"> Impormatibong Abstrak</label><br>
+      <label><input type="radio" name="q5" value="c"> Deskriptibong Abstrak</label><br><br>
+
+      <p><strong>6. Uri ng pagsulat na sumusunod na pamantayan, layunin nito na makapaglahad ng mga ideya sa paraang madaling maunawaan ng mgamambabasa</strong></p>
+      <label><input type="radio" name="q6" value="a">Pormal na Pagsulat </label><br>
+      <label><input type="radio" name="q6" value="b">Pagsulat </label><br>
+      <label><input type="radio" name="q6" value="c">Di-pormal na Pagsulat </label><br><br>
+
+      <p><strong>7.Uri ng sulat ayon sa layon Gumagamit ng Jargon o mga salitang ginagamit ng mga tao batay sa kanilang propesyon.  </strong></p>
+      <label><input type="radio" name="q7" value="a"> Sulating Panteknikal</label><br>
+      <label><input type="radio" name="q7" value="b"> Sulating Jornalistic</label><br>
+      <label><input type="radio" name="q7" value="c"> Sulating Pampropesyunal</label><br><br>
+      <p><strong>8. Uri ng sulat ayon sa layon na kinakailangan upang masukat ang kaalaman ng mga mag-aaral ukol sa mga isyu sa lipunan o sa paksang kanilang pinag-aaralan.</strong></p>
+      <label><input type="radio" name="q8" value="a"> Malikhaing Pagsulat</label><br>
+      <label><input type="radio" name="q8" value="b"> Sulating Jornalistik</label><br>
+      <label><input type="radio" name="q8" value="c">Pang-Akademikong Sulatin </label><br><br>
+
+      <p><strong>9.  Tinaguriang responsableng pagsulat sapagkat ang isinusulat dito ay mga balita o isyu sa loob at labas ng bansa, editorial, kolum, lathalain at iba pang akdang makikita sa mga pahayagan o diyaryo at magasin. </strong></p>
+      <label><input type="radio" name="q9" value="a"> Malikhaing Pagsulat</label><br>
+      <label><input type="radio" name="q9" value="b"> Sulating Jornalistik</label><br>
+      <label><input type="radio" name="q9" value="c"> Sulating Pampropesyunal</label><br><br>
+
+      <p><strong>10. Hakbangin sa pagsulat na may kaugnayan sa pagkuha ng datos tungkol sa paksang napili upang may maibahagi sa mga mambabasa.</strong></p>
+      <label><input type="radio" name="q10" value="a"> Pagpili ng Paksa</label><br>
+      <label><input type="radio" name="q10" value="b"> Pangangalap ng Datos </label><br>
+      <label><input type="radio" name="q10" value="c"> Pagsusuri ng mga nakalap na datos</label><br><br>
+
+      <button type="button" class="btn" onclick="submitQuiz4()">Isumite</button>
+    </form>
+    <p id="quizResult4" style="margin-top: 20px; font-weight: bold;"></p>
+   <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+<script>
+  let totalSeconds4 = 600; 
+
+  const timerElement4 = document.getElementById("timer4");
+  const quizForm4 = document.getElementById("quizForm4");
+
+  function updateTimer4() {
+    const minutes = Math.floor(totalSeconds4 / 60);
+    const seconds = totalSeconds4 % 60;
+    timerElement4.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds4 > 0) {
+      totalSeconds4--;
+    } else {
+      clearInterval(timerInterval4);
+      alert("Time's up!");
+      quizForm4.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval4 = setInterval(updateTimer4, 1000);
+</script>
+
+
+  </div>
+</div>
+
+<!-- LESSON CONTENT FOR LINGGO 5-->
+<div class="card hidden" id="linggo5Content">
+  <a href="linggo5.html">
+    <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 5
+    </button>
+   </a>
+  </div>
+    
+
+    
+
+<!-- QUIZ FOR LINGGO 5 -->
+<div class="card hidden" id="linggo5Quiz">
+  <h1>PAGSUSULIT – Linggo 5</h1>
+  <div class="lesson-content">
+    <form id="quizForm5">
+      
+<div id="timer5" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1. Ang mga gurong sinasamantala ang oras ng breaktime ay halimbawa ng anong gawaing pangkomunikasyon ng mga Pilipino. </strong></p>
+      <label><input type="radio" name="q1" value="a"> Tsismisan</label><br>
+      <label><input type="radio" name="q1" value="b"> Umpukan</label><br>
+      <label><input type="radio" name="q1" value="c"> Salamyaan</label><br><br>
+
+      <p><strong>2.Nilalaman ng artikulo na ito ang lahat ng tao ay dapat irespeto ang dignidad, personalidad, privacy at kapanatagan ng pag-iisip o peace of mind ng ibang tao. </strong></p>
+      <label><input type="radio" name="q2" value="a"> Artikulo 24- New Civil Code of Human Relations.</label><br>
+      <label><input type="radio" name="q2" value="b"> Artikulo 25- New Civil Code of Human Relations.</label><br>
+      <label><input type="radio" name="q2" value="c"> Artikulo 26- New Civil Code of Human Relations.</label><br><br>
+      <p><strong>3. Ang pamilyang nagplaplano ng susunod na bakasyon ay halimbawa ng anong gawaing pangkomunikasyon ng mga Pilipino. </strong></p>
+      <label><input type="radio" name="q3" value="a">Tsimisan </label><br>
+      <label><input type="radio" name="q3" value="b"> Salamyaan</label><br>
+      <label><input type="radio" name="q3" value="c"> Umpukan</label><br><br>
+
+      <p><strong>4. Naglalaman ng mga usapan na nadaragdagan at nababawasan sa pagpapalit- palit ng taong nagkwekwento</strong></p>
+      <label><input type="radio" name="q4" value="a"> Tsismisan</label><br>
+      <label><input type="radio" name="q4" value="b"> Salamyaan</label><br>
+      <label><input type="radio" name="q4" value="c"> Talakayan</label><br><br>
+
+
+      <p><strong>5. Kabilang sa gawaing pangkomunikasyon na ito ang walang katiyakan sa oras ang pagdating ng mga matatanda, bagama’t karaniwang marami ang pumupunta sa umaga at hapon   </strong></p>
+      <label><input type="radio" name="q5" value="a"> Talakayan</label><br>
+      <label><input type="radio" name="q5" value="b"> Tsismisan</label><br>
+      <label><input type="radio" name="q5" value="c"> Salamyaan</label><br><br>
+
+      <p><strong>6. Isang intelektwalisadong gawaing pangkomunikasyon na naglalayon na isagawa ang tama. Maaaring gamitin sa pagpapalitan ng datos, impormasyon, opinyon, hinaing, ideya, mungkahi at iba pa.</strong></p>
+      <label><input type="radio" name="q6" value="a"> Pormal na Pagsulat</label><br>
+      <label><input type="radio" name="q6" value="b"> Gawaing Pangkomunikasyon ng mga Pilipino </label><br>
+      <label><input type="radio" name="q6" value="c"> Di-pormal na Pagsulat</label><br><br>
+
+      <p><strong>7. Kabilang sa makrong kasanayan na nagtataglay ng paggamit ng simbolo o pagsensyas sa kilos o galaw ng kamay, katawan o ulo.</strong></p>
+      <label><input type="radio" name="q7" value="a"> Pagbasa</label><br>
+      <label><input type="radio" name="q7" value="b"> Pagsulat</label><br>
+      <label><input type="radio" name="q7" value="c"> Pagsasalita</label><br><br>
+
+      <p><strong>8. Simpleng pagtitipon ng mga mamamayan sa isang lugar na kapwa layunin nila ay makipag-usap sa bawat isa at makinihg sa mga opinyon o suhestyon.</strong></p>
+      <label><input type="radio" name="q8" value="a">Umpukan </label><br>
+      <label><input type="radio" name="q8" value="b">Pulong Bayan </label><br>
+      <label><input type="radio" name="q8" value="c">Talakayan </label><br><br>
+
+      <p><strong>9.Tawag sa Pangkomunikasyon ng mga Marikenyo</strong></p>
+      <label><input type="radio" name="q9" value="a"> Tsismisan</label><br>
+      <label><input type="radio" name="q9" value="b"> Salamyaan</label><br>
+      <label><input type="radio" name="q9" value="c"> Umpukan</label><br><br>
+
+      <p><strong>10.Kinikilalang talastasan ng bayan na nagkakakroon ng pantay ang mga kalahok at ang daloy ng usapan. Anong gawaing pangkomunikasyon ito nabibilang. </strong></p>
+      <label><input type="radio" name="q10" value="a"> Seminar</label><br>
+      <label><input type="radio" name="q10" value="b"> Umpukan</label><br>
+      <label><input type="radio" name="q10" value="c"> Salamyaan</label><br><br>
+
+      <button type="button" class="btn" onclick="submitQuiz5()">Isumite</button>
+    </form>
+    <p id="quizResult5" style="margin-top: 20px; font-weight: bold;"></p>
+   <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+
+
+<script>
+  let totalSeconds5 = 600; 
+
+  const timerElement5 = document.getElementById("timer5");
+  const quizForm5 = document.getElementById("quizForm5");
+
+  function updateTimer5() {
+    const minutes = Math.floor(totalSeconds5 / 60);
+    const seconds = totalSeconds5 % 60;
+    timerElement5.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds5 > 0) {
+      totalSeconds5--;
+    } else {
+      clearInterval(timerInterval5);
+      alert("Time's up!");
+      quizForm5.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval5 = setInterval(updateTimer5, 1000);
+</script>
+
+  </div>
+    </div>
+
+
+<!-- LESSON CONTENT FOR LINGGO 7-->
+<div class="card hidden" id="linggo7Content">
+  <a href="linggo7.html">
+    <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 7
+    </button>
+   </a>
+  </div>
+    </div>
+    </div>
+    </div>
+
+
+
+    <!-- QUIZ FOR LINGGO 7 -->
+<div class="card hidden" id="linggo7Quiz">
+  <h1>PAGSUSULIT – Linggo 7</h1>
+  <div class="lesson-content">
+    <form id="quizForm7">
+      <div id="timer7" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1.Ang mga kapulisan ay tumungo sa bawat tahanan ng Barangay Commonwealth upang magbigay ng paalala hinggil sa pagtaas  ng krimen sa kanilang lugar. </strong></p>
+      <label><input type="radio" name="q1" value="a">Pagbabahay-bahay </label><br>
+      <label><input type="radio" name="q1" value="b">Talakayan </label><br>
+      <label><input type="radio" name="q1" value="c">Pulong-Bayan</label><br><br>
+
+      <p><strong>2. Pinamumunuan ng isang may kapangyarihan o awtoridad</strong></p>
+      <label><input type="radio" name="q2" value="a">Pulong-Bayan</label><br>
+      <label><input type="radio" name="q2" value="b">Pagbabahay-bahay </label><br>
+      <label><input type="radio" name="q2" value="c">Umpukan</label><br><br>
+
+    <p><strong>3. Ang pamilyang nagplaplano ng susunod na bakasyon ay halimbawa ng anong gawaing pangkomunikasyon ng mga Pilipino. </strong></p>
+      <label><input type="radio" name="q3" value="a">Tsimisan </label><br>
+      <label><input type="radio" name="q3" value="b"> Salamyaan</label><br>
+      <label><input type="radio" name="q3" value="c"> Umpukan</label><br><br>
+
+      <p><strong>4. Naglalaman ng mga usapan na nadaragdagan at nababawasan sa pagpapalit- palit ng taong nagkwekwento</strong></p>
+      <label><input type="radio" name="q4" value="a"> Tsismisan</label><br>
+      <label><input type="radio" name="q4" value="b"> Salamyaan</label><br>
+      <label><input type="radio" name="q4" value="c"> Talakayan</label><br><br>
+
+
+      <p><strong>5. Kabilang sa gawaing pangkomunikasyon na ito ang walang katiyakan sa oras ang pagdating ng mga matatanda, bagama’t karaniwang marami ang pumupunta sa umaga at hapon   </strong></p>
+      <label><input type="radio" name="q5" value="a"> Talakayan</label><br>
+      <label><input type="radio" name="q5" value="b"> Tsismisan</label><br>
+      <label><input type="radio" name="q5" value="c"> Salamyaan</label><br><br>
+
+      <p><strong>6. Isang intelektwalisadong gawaing pangkomunikasyon na naglalayon na isagawa ang tama. Maaaring gamitin sa pagpapalitan ng datos, impormasyon, opinyon, hinaing, ideya, mungkahi at iba pa.</strong></p>
+      <label><input type="radio" name="q6" value="a"> Pormal na Pagsulat</label><br>
+      <label><input type="radio" name="q6" value="b"> Gawaing Pangkomunikasyon ng mga Pilipino </label><br>
+      <label><input type="radio" name="q6" value="c"> Di-pormal na Pagsulat</label><br><br>
+
+      <p><strong>7. Kabilang sa makrong kasanayan na nagtataglay ng paggamit ng simbolo o pagsensyas sa kilos o galaw ng kamay, katawan o ulo.</strong></p>
+      <label><input type="radio" name="q7" value="a"> Pagbasa</label><br>
+      <label><input type="radio" name="q7" value="b"> Pagsulat</label><br>
+      <label><input type="radio" name="q7" value="c"> Pagsasalita</label><br><br>
+
+      <p><strong>8. Simpleng pagtitipon ng mga mamamayan sa isang lugar na kapwa layunin nila ay makipag-usap sa bawat isa at makinihg sa mga opinyon o suhestyon.</strong></p>
+      <label><input type="radio" name="q8" value="a">Umpukan </label><br>
+      <label><input type="radio" name="q8" value="b">Pulong Bayan </label><br>
+      <label><input type="radio" name="q8" value="c">Talakayan </label><br><br>
+
+      <p><strong>9.Tawag sa Pangkomunikasyon ng mga Marikenyo</strong></p>
+      <label><input type="radio" name="q9" value="a"> Tsismisan</label><br>
+      <label><input type="radio" name="q9" value="b"> Salamyaan</label><br>
+      <label><input type="radio" name="q9" value="c"> Umpukan</label><br><br>
+
+      <p><strong>10.Kinikilalang talastasan ng bayan na nagkakakroon ng pantay ang mga kalahok at ang daloy ng usapan. Anong gawaing pangkomunikasyon ito nabibilang. </strong></p>
+      <label><input type="radio" name="q10" value="a"> Seminar</label><br>
+      <label><input type="radio" name="q10" value="b"> Umpukan</label><br>
+      <label><input type="radio" name="q10" value="c"> Salamyaan</label><br><br>
+
+      <button type="button" class="btn" onclick="submitQuiz7()">Isumite</button>
+    </form>
+    <p id="quizResult7" style="margin-top: 20px; font-weight: bold;"></p>
+
+
+   <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+
+
+<script>
+  let totalSeconds7 = 600; 
+
+  const timerElement7 = document.getElementById("timer7");
+  const quizForm7 = document.getElementById("quizForm7");
+
+  function updateTimer7() {
+    const minutes = Math.floor(totalSeconds7 / 60);
+    const seconds = totalSeconds7 % 60;
+    timerElement7.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds7 > 0) {
+      totalSeconds7--;
+    } else {
+      clearInterval(timerInterval7);
+      alert("Time's up!");
+      quizForm7.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval7 = setInterval(updateTimer7, 1000);
+</script>
+
+</div>
+</div>
+
+
+<!-- Linggo 8 -->
+<div class="card hidden" id="linggo8Content">
+  <a href="linggo8.html">
+    <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 8
+    </button>
+  </a>
+  </div>
+    </div>
+  </div>
+  
+
+
+
+<!-- QUIZ FOR LINGGO 8-->
+<div class="card hidden" id="linggo8Quiz">
+  <h1>PAGSUSULIT – Linggo 8</h1>
+  <div class="lesson-content">
+    <form id="quizForm8">
+      
+<div id="timer8" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1. Proseso ng pag-bibigay at pagtanggap ng ideya sa pamamagitan ng kilos o galaw, ekspresyon ng mukha, lakas at hina ng boses, galaw ng maat at iba pa.</strong></p>
+      <label><input type="radio" name="q1" value="a">Ekspresyong Lokal </label><br>
+      <label><input type="radio" name="q1" value="b">Komunikasyon </label><br>
+      <label><input type="radio" name="q1" value="c">Berbat at Di-berbal </label><br><br>
+
+      <p><strong>2.Ito at tumutukoy sa pag-aaral ng kilos at galaw ng tao. </strong></p>
+      <label><input type="radio" name="q2" value="a">Haptics </label><br>
+      <label><input type="radio" name="q2" value="b">Kinesika </label><br>
+      <label><input type="radio" name="q2" value="c">Oculesis </label><br><br>
+
+      <p><strong>3.Pinaka-primitibong anyo ng komunikasyon na nagpapahiwatig ng positibong emosyon na kadalasan nararamdaman ng malapit sa isa’t isa </strong></p>
+      <label><input type="radio" name="q3" value="a">Oculesics</label><br>
+      <label><input type="radio" name="q3" value="b">Paralanguage </label><br>
+      <label><input type="radio" name="q3" value="c">Haptics</label><br><br>
+
+      <p><strong>4.Tumutukoy sa tono ng pagbigkas ng mga salita o bilis ng pagsasalita. Kasama na rin sa bahaging ito ang pagsut-sot, buntong hininga, ungol at paghinto </strong></p>
+      <label><input type="radio" name="q4" value="a">Paralanguage</label><br>
+      <label><input type="radio" name="q4" value="b">Haptics</label><br>
+      <label><input type="radio" name="q4" value="c">Oculesics</label><br><br>
+
+
+      <p><strong>5.Ito ay pantawag o pagkuha ng atensyon ng isang tao.  </strong></p>
+      <label><input type="radio" name="q5" value="a">Para </label><br>
+      <label><input type="radio" name="q5" value="b">Pag Pitik </label><br>
+      <label><input type="radio" name="q5" value="c">Pito</label><br><br>
+
+      <p><strong>6.Maaari ding magpahiwatig ng damdamin o oryentasyon ang bawat kulay na iyong nakikita sa paligid. </strong></p>
+      <label><input type="radio" name="q6" value="a">Paralanguage </label><br>
+      <label><input type="radio" name="q6" value="b">Colorics </label><br>
+      <label><input type="radio" name="q6" value="c">Iconics </label><br><br>
+
+      <p><strong>7.Tumutukoy sa paggamit ng mga bagay sa pakikipagtalastasan. Kabilang rito ang mga elektronikong ekwipment </strong></p>
+      <label><input type="radio" name="q7" value="a">Paralanguage </label><br>
+      <label><input type="radio" name="q7" value="b">Colorics </label><br>
+      <label><input type="radio" name="q7" value="c">Objectics </label><br><br>
+
+      <p><strong>8.Nagpapahayag ng pagiging masaya kung siya ay nakangiti, malungkot kung umiiyak, nakasimangot kung galit at naiinis kung tulala. </strong></p>
+      <label><input type="radio" name="q8" value="a">Tindig o postura </label><br>
+      <label><input type="radio" name="q8" value="b">Galaw ng Mata </label><br>
+      <label><input type="radio" name="q8" value="c">Ekspresyon ng Mukha </label><br><br>
+
+      <p><strong>9.Ang pagdarausan o lugar na gagamitin sa anumang pulong o kumperensiya  </strong></p>
+      <label><input type="radio" name="q9" value="a">Katahimikan </label><br>
+      <label><input type="radio" name="q9" value="b">Kapaligiran </label><br>
+      <label><input type="radio" name="q9" value="c">Haptics </label><br><br>
+
+      <p><strong>10.Pinaikling “Ayon” maaaring pagsang-ayon o paglabas ng matinding damdamin. </strong></p>
+      <label><input type="radio" name="q10" value="a">Luh  </label><br>
+      <label><input type="radio" name="q10" value="b">Wapak  </label><br>
+      <label><input type="radio" name="q10" value="c">Yown </label><br><br>
+
+     <button type="button" class="btn" onclick="submitQuiz8()">Isumite</button>
+
+    </form>
+    <p id="quizResult8" style="margin-top: 20px; font-weight: bold;"></p>
+   <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+
+<script>
+  let totalSeconds8 = 600; 
+
+  const timerElement8 = document.getElementById("timer8");
+  const quizForm8 = document.getElementById("quizForm8");
+
+  function updateTimer8() {
+    const minutes = Math.floor(totalSeconds8 / 60);
+    const seconds = totalSeconds8 % 60;
+    timerElement8.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds8 > 0) {
+      totalSeconds8--;
+    } else {
+      clearInterval(timerInterval8);
+      alert("Time's up!");
+      quizForm8.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval8 = setInterval(updateTimer8, 1000);
+</script>
+  </div>
+</div>
+
+
+<!-- Linggo 9 -->
+<div class="card hidden" id="linggo9Content">
+  <a href="linggo9.html">
+    <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 9
+    </button>
+   </a>
+  </div>
+    </div>
+  </div>
+
+
+<!-- QUIZ FOR LINGGO 9 -->
+<div class="card hidden" id="linggo9Quiz">
+  <h1>PAGSUSULIT – Linggo 9</h1>
+  <div class="lesson-content">
+    <form id="quizForm9">
+      
+<div id="timer9" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1.Tumutukoy sa katiwalian o pangungurakot na kawalan ng integridad at katapatan. </strong></p>
+      <label><input type="radio" name="q1" value="a">Fixer </label><br>
+      <label><input type="radio" name="q1" value="b">Pagnanakaw </label><br>
+      <label><input type="radio" name="q1" value="c">Korapsyon </label><br><br>
+
+      <p><strong>2.Isa sa pinakatanyag na pormula ng korapsyon </strong></p>
+      <label><input type="radio" name="q2" value="a">Accountability + Discretion-Monopoly= Corruption </label><br>
+      <label><input type="radio" name="q2" value="b">Controlling Corruption Monopoly + Discretion- Accountability= Corruption </label><br>
+      <label><input type="radio" name="q2" value="c">Controlling Corruption Monopoly- Discretion + Accountability= Corruption </label><br><br>
+
+      <p><strong>3.Ito ay isang salita na tumutukoy sa pagtatalaga ng pamahalaan sa paggasta ng pangunahing kinukuha mula sa kaban ng bayan ng bansa upang magamit sa distrito ng isang mambabatas para sa mga lokal na proyekto nito. </strong></p>
+      <label><input type="radio" name="q3" value="a">Hello Garci Tape </label><br>
+      <label><input type="radio" name="q3" value="b">Presidential Communications Operations </label><br>
+      <label><input type="radio" name="q3" value="c">Pork Barrel Scam </label><br><br>
+
+      <p><strong>4.Ito ang saligang batas laban sa korapsyon at iba pang mga kasong sibil. </strong></p>
+      <label><input type="radio" name="q4" value="a">R.A No 3019 Anti Graft and Corrupt Practices Act </label><br>
+      <label><input type="radio" name="q4" value="b">R.A No 6770 Investigation for Government Employee </label><br>
+      <label><input type="radio" name="q4" value="c">R.A No 6713 Batas anti-korupsiyon sa Pilipinas  </label><br><br>
+
+
+      <p><strong>5.Sila ang kumilos na humiling ng direktang koneksyon ng tubig at kuryente sa mga tirahan </strong></p>
+      <label><input type="radio" name="q5" value="a">Department of Health </label><br>
+      <label><input type="radio" name="q5" value="b">Commission on Audit </label><br>
+      <label><input type="radio" name="q5" value="c">Kalipunan ng Damayang Mahihirap </label><br><br>
+
+      <p><strong>6.Ito ang nagsisilbing proteksyon ng pamilya. </strong></p>
+      <label><input type="radio" name="q6" value="a"> Damit </label><br>
+      <label><input type="radio" name="q6" value="b">Pera </label><br>
+      <label><input type="radio" name="q6" value="c">Bahay </label><br><br>
+
+      <p><strong>7.Ito ang kinakailangan ng bawat guro na kumuha ng 45 yunit upang mapanatili ang lisensya matapos ang tatlong taong pagiging balido nito. </strong></p>
+      <label><input type="radio" name="q7" value="a">Priority Development </label><br>
+      <label><input type="radio" name="q7" value="b">Continuing Professional Development  </label><br>
+      <label><input type="radio" name="q7" value="c">Priority Funds </label><br><br>
+
+      <p><strong>8.Siya ang binansagang Ina ng Katipunan </strong></p>
+      <label><input type="radio" name="q8" value="a">Pangulong Gloria Macapagal Arroyo </label><br>
+      <label><input type="radio" name="q8" value="b">Francisco Baltazar </label><br>
+      <label><input type="radio" name="q8" value="c">Melchora Aquino </label><br><br>
+
+      <p><strong>9.Ito ang araw ng kamatayan ni Rizal sa Bagumbayan na kasalukuyang tawag ay Luneta. Bunga ng paglaban sa mga mananakop na espanyol.  </strong></p>
+      <label><input type="radio" name="q9" value="a">Disyembre 30, 1896 </label><br>
+      <label><input type="radio" name="q9" value="b">Disyembre 20, 1897 </label><br>
+      <label><input type="radio" name="q9" value="c">Hunyo 19, 1890 </label><br><br>
+
+      <p><strong>10.Ito ang nagmarka sa diwa ng mga Pilipino noon hanggang sa kasalukuyan na maraming personalidad ang naging kilala, pinagmamalaki at naging prominente sa kasaysayan ng Pilipinas sa ilalim ng mga mananakop. </strong></p>
+      <label><input type="radio" name="q10" value="a">Korapsyon </label><br>
+      <label><input type="radio" name="q10" value="b">Kickback </label><br>
+      <label><input type="radio" name="q10" value="c">Konsepto ng mga Bayani </label><br><br>
+
+      <button type="button" class="btn" onclick="submitQuiz9()">Isumite</button>
+    </form>
+    <p id="quizResult9" style="margin-top: 20px; font-weight: bold;"></p>
+   <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+
+<script>
+  let totalSeconds9 = 600; 
+
+  const timerElement9 = document.getElementById("timer9");
+  const quizForm9 = document.getElementById("quizForm9");
+
+  function updateTimer9() {
+    const minutes = Math.floor(totalSeconds9 / 60);
+    const seconds = totalSeconds9 % 60;
+    timerElement9.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds9 > 0) {
+      totalSeconds9--;
+    } else {
+      clearInterval(timerInterval9);
+      alert("Time's up!");
+      quizForm9.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval9 = setInterval(updateTimer9, 1000);
+</script>
+
+
+
+
+  </div>
+</div>
+
+
+<!-- Linggo 10 -->
+<div class="card hidden" id="linggo10Content">
+  <a href="linggo10.html">
+  <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 10
+    </button>
+    </a>
+  </div>
+    </div>
+
+
+<!-- QUIZ FOR LINGGO 10 -->
+<div class="card hidden" id="linggo10Quiz">
+  <h1>PAGSUSULIT – Linggo 10</h1>
+  <div class="lesson-content">
+    <form id="quizForm10">
+      
+<div id="timer10" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1.Siya nag nagbigay ng layunin na magpatupad ng mga proyekto na makakatulong at makabubuti para sa mamamayan ng Pilipinas hinggil sa usapin ng kalusugan. </strong></p>
+      <label><input type="radio" name="q1" value="a">Department of Health </label><br>
+      <label><input type="radio" name="q1" value="b">Health Center </label><br>
+      <label><input type="radio" name="q1" value="c">Health Maintenance Organization </label><br><br>
+
+      <p><strong>2.Ito ang naging dominante sa isyu ng dengue sa administrasyon ng Dating Pangulong Benigno Aquino III na nagkaroon ng maraming biktima. Nagmula sa Sanofi Pharmaceutical Company </strong></p>
+      <label><input type="radio" name="q2" value="a">Dengvaxia </label><br>
+      <label><input type="radio" name="q2" value="b">Malaria </label><br>
+      <label><input type="radio" name="q2" value="c">Ebola Virus </label><br><br>
+
+      <p><strong>3.Ito ang mismong virus na unang nakukuha na nagdudulot ng sakit na kung tawagin ay Aids </strong></p>
+      <label><input type="radio" name="q3" value="a">Dengvaxia </label><br>
+      <label><input type="radio" name="q3" value="b">Malaria </label><br>
+      <label><input type="radio" name="q3" value="c">HIV </label><br><br>
+
+      <p><strong>4.Ito ay isang proyekto na naglalayong unit-unting palitan ang mga jeepney na tumagal ng 15 taon o pataas ng mkabagong electronic jeepney. </strong></p>
+      <label><input type="radio" name="q4" value="a">Balik-eskwela Program </label><br>
+      <label><input type="radio" name="q4" value="b">Pantawid Pamilya Program </label><br>
+      <label><input type="radio" name="q4" value="c">Jeepney Modernization Program </label><br><br>
+
+
+      <p><strong>5.Sila ang patuloy na nakikipaglaban upang tiyaking hindi mangyayari ang Jeepney Phase Out.  </strong></p>
+      <label><input type="radio" name="q5" value="a">NHA </label><br>
+      <label><input type="radio" name="q5" value="b">Piston </label><br>
+      <label><input type="radio" name="q5" value="c">PSE </label><br><br>
+
+      <p><strong>6.Pinakapangunahing sanhi ng HIV </strong></p>
+      <label><input type="radio" name="q6" value="a">Pakikipagtalik </label><br>
+      <label><input type="radio" name="q6" value="b">Pag-ibig </label><br>
+      <label><input type="radio" name="q6" value="c">Paglalagay ng Tattoo </label><br><br>
+
+      <p><strong>7.Iba pang katawagan sa K-12 Curriculum </strong></p>
+      <label><input type="radio" name="q7" value="a">Republic Act No. 10533 </label><br>
+      <label><input type="radio" name="q7" value="b">Republic Act No. 7783 </label><br>
+      <label><input type="radio" name="q7" value="c">Republic Act No. 7863 </label><br><br>
+
+      <p><strong>8.Sa programang ito isinisawat ang hindi maayos na pamamalakad ng NHA para sa mga nasalanta ng bagyo at giyera </strong></p>
+      <label><input type="radio" name="q8" value="a">Wish ko lang </label><br>
+      <label><input type="radio" name="q8" value="b">T.V Patrol </label><br>
+      <label><input type="radio" name="q8" value="c">Failon Ngayon </label><br><br>
+
+      <p><strong>9.Ilan ang Bilang ng mga batang naturukan ng dengvaxia na hindi pa nagkaka-dengue.  </strong></p>
+      <label><input type="radio" name="q9" value="a">50,000 </label><br>
+      <label><input type="radio" name="q9" value="b">60,000 </label><br>
+      <label><input type="radio" name="q9" value="c">70,000 </label><br><br>
+
+      <p><strong>10.Ito ay pinagkakakitaan ang mga Pilipinong nasa iskwater upang kumita nang pansarili </strong></p>
+      <label><input type="radio" name="q10" value="a">Pagpatay </label><br>
+      <label><input type="radio" name="q10" value="b">Akyat-bahay </label><br>
+      <label><input type="radio" name="q10" value="c">Squatting Syndicate </label><br><br>
+      <button type="button" class="btn" onclick="submitQuiz10()">Isumite</button>
+    </form>
+    <p id="quizResult10" style="margin-top: 20px; font-weight: bold;"></p>
+   <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+
+<script>
+  let totalSeconds10 = 600; 
+
+  const timerElement10 = document.getElementById("timer10");
+  const quizForm10 = document.getElementById("quizForm10");
+
+  function updateTimer10() {
+    const minutes = Math.floor(totalSeconds10 / 60);
+    const seconds = totalSeconds10 % 60;
+    timerElement10.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds10 > 0) {
+      totalSeconds10--;
+    } else {
+      clearInterval(timerInterval10);
+      alert("Time's up!");
+      quizForm10.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval10 = setInterval(updateTimer10, 1000);
+</script>
+
+
+  </div>
+</div>
+
+
+<!-- LESSON CONTENT FOR LINGGO 11-->
+<div class="card hidden" id="linggo11Content">
+  <a href="linggo11.html">
+    <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 11
+    </button>
+  </a>
+  </div>
+    </div>
+
+
+<!-- QUIZ FOR LINGGO 11-->
+<div class="card hidden" id="linggo11Quiz">
+  <h1>PAGSUSULIT – Linggo 11</h1>
+  <div class="lesson-content">
+    <form id="quizForm11">
+      
+<div id="timer11" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1.Proseso kung paano nabubuo at lumalaki ang mga bayan at lungsod dahil sa mga taong naninirahan at nagtatrabaho sa mga sentral na lokasyon ay parami na ng parami  </strong></p>
+      <label><input type="radio" name="q1" value="a">Kontemporaryo  </label><br>
+      <label><input type="radio" name="q1" value="b">Urbanisasyon  </label><br>
+      <label><input type="radio" name="q1" value="c"> Naturalisasyon</label><br><br>
+
+      <p><strong>2. Ito ang pagbagao sa orihinal na anyo ng lupa upang maging handang tayuan ng mga imprastraktura, bahay, gusali at gawing komersyal. </strong></p>
+      <label><input type="radio" name="q2" value="a">Kontemporaryo   </label><br>
+      <label><input type="radio" name="q2" value="b">Polusyon  </label><br>
+      <label><input type="radio" name="q2" value="c"> Kumbersyon sa Lupa </label><br><br>
+
+      <p><strong>3.Tawag sa mga material o kagamitan na nasa ano mang anyo na nagpaparumi, sumisira at ginagawang hindi ligtas o hindi akmang gamitin ang lupa, tubig hangin at iba pa.  </strong></p>
+      <label><input type="radio" name="q3" value="a"> Kontemporaryo  </label><br>
+      <label><input type="radio" name="q3" value="b"> Polusyon  </label><br>
+      <label><input type="radio" name="q3" value="c"> Kumbersyon sa Lupa </label><br><br>
+
+      <p><strong>4. Ilang porsyento ang tinatayang polusyon sa lawa ay dahil sa domestikong basura mula sa mga naninirahan sa palagid Laguna De Bay. </strong></p>
+      <label><input type="radio" name="q4" value="a"> 60%</label><br>
+      <label><input type="radio" name="q4" value="b"> 70%</label><br>
+      <label><input type="radio" name="q4" value="c"> 80%</label><br><br>
+
+
+      <p><strong>5. Kailan isinara ang Boracay para sa malawakang rehabilitasyon? </strong></p>
+      <label><input type="radio" name="q5" value="a"> April 25, 2018</label><br>
+      <label><input type="radio" name="q5" value="b">April 26, 2018 </label><br>
+      <label><input type="radio" name="q5" value="c">April 27, 2018 </label><br><br>
+
+      <p><strong>6.Batay sa grupong Greenpeace, pang-ilan ang Pilipinas sa nagpoprodus ng malaking porsyento ng plastic na sumisira sa karagatan ng daigdig. </strong></p>
+      <label><input type="radio" name="q6" value="a">Una  </label><br>
+      <label><input type="radio" name="q6" value="b">Pangalawa </label><br>
+      <label><input type="radio" name="q6" value="c">Pangatlo </label><br><br>
+
+      <p><strong>7.Ito ay bunga ng pagdami at pagkaipon ng mga greenhouse gas sa atmospera ng mundo.  </strong></p>
+      <label><input type="radio" name="q7" value="a"> Globalisasyon </label><br>
+      <label><input type="radio" name="q7" value="b"> Pagbaha  </label><br>
+      <label><input type="radio" name="q7" value="c"> Climate Change   </label><br><br>
+
+      <p><strong>8.Mula sa pagkakabuo ng mga ulap, ulan at hangin ay natural na proseso ng kalikasan.    </strong></p>
+      <label><input type="radio" name="q8" value="a">Globalisasyon </label><br>
+      <label><input type="radio" name="q8" value="b">Bagyo at Baha   </label><br>
+      <label><input type="radio" name="q8" value="c"> Paglindol</label><br><br>
+
+      <p><strong>9. Ito ang ahensiya na nagbigay payo sa mga gumagamit ng sasakyan at mga kompanya na gumagamit ng mas malinis na gasoline upang bumaba ang porsyento ng polusyon.  </strong></p>
+      <label><input type="radio" name="q9" value="a">  Department of Environement and Natural Resources  </label><br>
+      <label><input type="radio" name="q9" value="b"> Department of Trade and Industry   </label><br>
+      <label><input type="radio" name="q9" value="c"> Department of Agriculture    </label><br><br>
+      <p><strong>10.Ito ang taon na kung saan nabuo ang super typhoon at nanalasa sa Kabisayaan at mga bahagi ng Luzon. </strong></p>
+      <label><input type="radio" name="q10" value="a"> Nobyembre 3, 2012</label><br>
+      <label><input type="radio" name="q10" value="b"> Nobyembre 3, 2013</label><br>
+      <label><input type="radio" name="q10" value="c">Nobyembre 6, 2012   </label><br><br>
+
+      <button type="button" class="btn" onclick="submitQuiz11()">Isumite</button>
+    </form>
+    <p id="quizResult11" style="margin-top: 20px; font-weight: bold;"></p>
+   <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+
+<script>
+  let totalSeconds11 = 600; 
+
+  const timerElement11 = document.getElementById("timer11");
+  const quizForm11 = document.getElementById("quizForm11");
+
+  function updateTimer11() {
+    const minutes = Math.floor(totalSeconds11 / 60);
+    const seconds = totalSeconds11 % 60;
+    timerElement11.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds11 > 0) {
+      totalSeconds11--;
+    } else {
+      clearInterval(timerInterval11);
+      alert("Time's up!");
+      quizForm11.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval11 = setInterval(updateTimer11, 1000);
+</script>
+
+
+  </div>
+</div>
+
+
+<!-- LESSON CONTENT FOR LINGGO 13-->
+<div class="card hidden" id="linggo13Content">
+  <a href="linggo13.html">
+   <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 13
+    </button> </a>
+  </div>
+    </div>
+
+
+<!-- QUIZ FOR LINGGO 13 -->
+<div class="card hidden" id="linggo13Quiz">
+  <h1>PAGSUSULIT – Linggo 13</h1>
+  <div class="lesson-content">
+    <form id="quizForm13">
+      
+<div id="timer13" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1. Tumutukoy sa patuloy na pagkamkam at pagdadamot ng mga lupang sakahan sa mga magsasaka sa bansa. </strong></p>
+      <label><input type="radio" name="q1" value="a"> Imperyalismo </label><br>
+      <label><input type="radio" name="q1" value="b"> Pyudalismo </label><br>
+      <label><input type="radio" name="q1" value="c"> Kolonyalismo</label><br><br>
+
+      <p><strong>2. Ito ay kaparaanan kung paano nagiging global o pangbuong mundo ang mga lokal, pampook o kaya pambansang mga gawi o paraan. </strong></p>
+      <label><input type="radio" name="q2" value="a"> Intelektwalisasyon</label><br>
+      <label><input type="radio" name="q2" value="b"> Globalisasyon </label><br>
+      <label><input type="radio" name="q2" value="c"> Nasyonalisasyon</label><br><br>
+
+      <p><strong>3. Simula ng nagkaroon ng batas na ito ng panahon ni dating pangulong Elpidio Quirino nagkaroon ng kaunting siwang na liwanag ang mga uring mangagawa.</strong></p>
+      <label><input type="radio" name="q3" value="a">Republic Act No.602  </label><br>
+      <label><input type="radio" name="q3" value="b"> Republic Act No.603 </label><br>
+      <label><input type="radio" name="q3" value="c">Republic Act No.604 </label><br><br>
+
+      <p><strong>4.Ano ang nilahukan ng Pilipinas taong 1989.  </strong></p>
+      <label><input type="radio" name="q4" value="a"> United Nation Education Scientific and Cultural Organization </label><br>
+      <label><input type="radio" name="q4" value="b"> Galleon Trade </label><br>
+      <label><input type="radio" name="q4" value="c"> Asia Pacific Economic Cooperation </label><br><br>
+
+
+      <p><strong>5. Isang katayuan sa trabaho kung saan pinagkakakitaan ang mga manggagawa upang manatili sa kanilang pagtatrabaho </strong></p>
+      <label><input type="radio" name="q5" value="a"> Globalisasyon</label><br>
+      <label><input type="radio" name="q5" value="b">Pribatisasyon  </label><br>
+      <label><input type="radio" name="q5" value="c">Kontraktuwalisasyon </label><br><br>
+
+      <p><strong>6. Nilalayon ng batas na ito ang pagtatalaga ng Regional Boards ng Minimum Wage Rates para sa mga manggagawa nasakop ng pribadong sektor. </strong></p>
+      <label><input type="radio" name="q6" value="a"> Republic Act No. 6269</label><br>
+      <label><input type="radio" name="q6" value="b"> Republic Act No. 6230</label><br>
+      <label><input type="radio" name="q6" value="c"> Republic Act No. 6272</label><br><br>
+
+      <p><strong>7. Ito ay isinulonbg gobyerno upang iangat ang antas ng makinarya sa bansa. </strong></p>
+      <label><input type="radio" name="q7" value="a"> Grab </label><br>
+      <label><input type="radio" name="q7" value="b"> Traditional Jeep</label><br>
+      <label><input type="radio" name="q7" value="c">E-Jeep </label><br><br>
+
+      <p><strong>8.Ito ang pinirmahan ng Pangulong Rodrigo Duterte handog sa milyun-milyong mamamayang Pilipino  </strong></p>
+      <label><input type="radio" name="q8" value="a"> Incentive Act </label><br>
+      <label><input type="radio" name="q8" value="b">Creating Processing Zone Authority  </label><br>
+      <label><input type="radio" name="q8" value="c">Tax Reform For Acceleration and Inclusion  </label><br><br>
+      <p><strong>9. Ito ang batas o paraan ng pamamahala kung saan ang malalaki o makapangyarihang mga bansa ang naghahangad upang palawakin ang kanilang kapangyarihan sa pamamagitan ng pagsakop o paglulunsad ng mga pagtaban o kontrol na pangkabuhayan at pampulitika sa ibabaw ng ibang mga bansa.  </strong></p>
+      <label><input type="radio" name="q9" value="a">Imperyalismo </label><br>
+      <label><input type="radio" name="q9" value="b"> Naturalisasyon</label><br>
+      <label><input type="radio" name="q9" value="c"> Globalisasyon </label><br><br>
+
+      <p><strong>10.Nangangahulugang walang habas na pagnanakaw ng pera sa kaban ng bayan ay isa sa mga dahilan ng kahirapan. </strong></p>
+      <label><input type="radio" name="q10" value="a"> Kawalang Disiplina ng mga Tao</label><br>
+      <label><input type="radio" name="q10" value="b"> Korapsyon  </label><br>
+      <label><input type="radio" name="q10" value="c"> Pyudalismo</label><br><br>
+
+      <button type="button" class="btn" onclick="submitQuiz13()">Isumite</button>
+    </form>
+    <p id="quizResult13" style="margin-top: 20px; font-weight: bold;"></p>
+   <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+
+<script>
+  let totalSeconds13 = 600; 
+
+  const timerElement13 = document.getElementById("timer13");
+  const quizForm13 = document.getElementById("quizForm13");
+
+  function updateTimer13() {
+    const minutes = Math.floor(totalSeconds13 / 60);
+    const seconds = totalSeconds13 % 60;
+    timerElement13.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds13 > 0) {
+      totalSeconds13--;
+    } else {
+      clearInterval(timerInterval13);
+      alert("Time's up!");
+      quizForm13.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval13 = setInterval(updateTimer13, 1000);
+</script>
+
+
+
+  </div>
+</div>
+
+
+
+<!-- LESSON CONTENT FOR LINGGO 14-->
+<div class="card hidden" id="linggo14Content">
+  <a href="linggo14.html">
+    <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 14
+    </button>
+   </a>
+  </div>
+    </div>
+
+<!-- QUIZ FOR LINGGO 14 -->
+<div class="card hidden" id="linggo14Quiz">
+  <h1>PAGSUSULIT – Linggo 14</h1>
+  <div class="lesson-content">
+    <form id="quizForm14">
+      
+<div id="timer14" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1. Tumutukoy sa pagtitipon o asembliya na bukas para sa publikov upang magkaroon ng talastasan o diskusyon kung saan ang opinyon ng mga tao tungkol sa isang isyu ay maaaring maibahagi.</strong></p>
+      <label><input type="radio" name="q1" value="a">Worksyap  </label><br>
+      <label><input type="radio" name="q1" value="b"> Forum </label><br>
+      <label><input type="radio" name="q1" value="c"> Lekyur  </label><br><br>
+
+      <p><strong>2.Ito ang maaaring ipamahagi upang maipakalat ang mahahalagang impormasyon tungkol sa gagawing forum </strong></p>
+      <label><input type="radio" name="q2" value="a">Flyers </label><br>
+      <label><input type="radio" name="q2" value="b">Pahayagan  </label><br>
+      <label><input type="radio" name="q2" value="c"> Libro</label><br><br>
+
+      <p><strong>3.Pumili ng mapagkakatiwalaang magbabahagi ng sariling danas sa forum  </strong></p>
+      <label><input type="radio" name="q3" value="a"> Tagapakinig . </label><br>
+      <label><input type="radio" name="q3" value="b">Tagapagsalita . </label><br>
+      <label><input type="radio" name="q3" value="c"> Tagatanong.</label><br><br>
+
+      <p><strong>4.Ito ang maaaring ibigay upang malaman kung ano ang naging pagkukulang at dapat ayusin sa naganap na forum.  </strong></p>
+      <label><input type="radio" name="q4" value="a"> Pidbak </label><br>
+      <label><input type="radio" name="q4" value="b"> Marka </label><br>
+      <label><input type="radio" name="q4" value="c">Hato</label><br><br>
+
+
+      <p><strong>5.Isa sa mga estratehiyang maaaring gamitin sa epektibong pagbabahagi ng teorya, kaalaman at kuru-kuro sa mga mag-aaral  </strong></p>
+      <label><input type="radio" name="q5" value="a"> Worksyap </label><br>
+      <label><input type="radio" name="q5" value="b"> Forum</label><br>
+      <label><input type="radio" name="q5" value="c"> Lektyur </label><br><br>
+
+      <p><strong>6. Ito ay ang simula ng unang tatlo hanggang limang minuto na bahagi ng pagtalakay. Sa bahaging ito dapat masukat ng tagapagtalakay ang paksang pag-uusapan. </strong></p>
+      <label><input type="radio" name="q6" value="a"> Introduksyon </label><br>
+      <label><input type="radio" name="q6" value="b"> Katawan o Nilalaman </label><br>
+      <label><input type="radio" name="q6" value="c">Katapusan  </label><br><br>
+
+      <p><strong>7. Ito ang pinakamahalagang bahagi ng lekytur dahil dito tinatalakay ang mahahalagang impormasyon na nais matutuhan ng mga tagapakinig </strong></p>
+      <label><input type="radio" name="q7" value="a"> Introduksyon</label><br>
+      <label><input type="radio" name="q7" value="b"> Katawan o Nilalaman </label><br>
+      <label><input type="radio" name="q7" value="c"> Konklusyon</label><br><br>
+      <p><strong>8.Ito ang bahagi ng karaniwan na isinasawalang bahala kaya kinakailangan na gamitin ang bahaging ito sa muling pagpapaaalala at pagbibigay diin sa mga inilahad na mahalagang impormasyon.  </strong></p>
+      <label><input type="radio" name="q8" value="a"> Introduksyon</label><br>
+      <label><input type="radio" name="q8" value="b"> Katawan o Nilalaman </label><br>
+      <label><input type="radio" name="q8" value="c"> Konklusyon</label><br><br>
+
+      <p><strong>9.Isang uri ng estratehiya sa pagtuturo para mas mataas na antas ng pagkatuto   </strong></p>
+      <label><input type="radio" name="q9" value="a"> Seminar </label><br>
+      <label><input type="radio" name="q9" value="b"> Lektyur </label><br>
+      <label><input type="radio" name="q9" value="c"> Forum </label><br><br>
+
+      <p><strong>10.  Karaniwang maliit ang bilang ng dumadalo at simple lamang ang konseptong tatalakayin.</strong></p>
+      <label><input type="radio" name="q10" value="a"> Internasyunal Seminar  </label><br>
+      <label><input type="radio" name="q10" value="b"> National Seminar </label><br>
+      <label><input type="radio" name="q10" value="c"> Mini-Seminar</label><br><br>
+
+      <button type="button" class="btn" onclick="submitQuiz14()">Isumite</button>
+    </form>
+    <p id="quizResult14" style="margin-top: 20px; font-weight: bold;"></p>
+   <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+
+<script>
+  let totalSeconds14 = 600; 
+
+  const timerElement14 = document.getElementById("timer14");
+  const quizForm14 = document.getElementById("quizForm14");
+
+  function updateTimer14() {
+    const minutes = Math.floor(totalSeconds14 / 60);
+    const seconds = totalSeconds14 % 60;
+    timerElement14.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds14 > 0) {
+      totalSeconds14--;
+    } else {
+      clearInterval(timerInterval14);
+      alert("Time's up!");
+      quizForm14.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval14 = setInterval(updateTimer14, 1000);
+</script>
+  </div>
+</div>
+
+
+<!-- LESSON CONTENT FOR LINGGO 15-->
+<div class="card hidden" id="linggo15Content">
+  <a href="linggo15.html">
+    <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 15
+    </button>
+   </a>
+  </div>
+    </div>
+
+<!-- QUIZ FOR LINGGO 15 -->
+<div class="card hidden" id="linggo15Quiz">
+  <h1>PAGSUSULIT – Linggo 15</h1>
+  <div class="lesson-content">
+    <form id="quizForm15">
+      
+<div id="timer15" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1. Isa sa mga pinakamabisang paraan ng pagbabahagi ng kaalaman at kasanayan sa ibang tao. Dito ay nabibigyan ng pagkakataon ang isang tao na isagawa ang mga nais niyang matutuhan.</strong></p>
+      <label><input type="radio" name="q1" value="a">Worksyap </label><br>
+      <label><input type="radio" name="q1" value="b"> Forum</label><br>
+      <label><input type="radio" name="q1" value="c"> Lekyur  </label><br><br>
+
+      <p><strong>2. Unang hakbang sa pagsasagawa ng worksyap. Sa bahaging ito dapat isaisip kung ano ang tiyak na layunin na nais makamit o adhikain ng isinasagawa. </strong></p>
+      <label><input type="radio" name="q2" value="a">Pagpili  </label><br>
+      <label><input type="radio" name="q2" value="b"> Pagpaplano </label><br>
+      <label><input type="radio" name="q2" value="c">Pagpapatupad   </label><br><br>
+
+      <p><strong>3. Maaari ng buoin ang talaan ng mga gagawin subalit kailangan muna mag-iisp kung paano ito isasagawa. </strong></p>
+      <label><input type="radio" name="q3" value="a">Set-up </label><br>
+      <label><input type="radio" name="q3" value="b">Pagpapatupad  </label><br>
+      <label><input type="radio" name="q3" value="c">Pagpaplano  </label><br><br>
+
+      <p><strong>4. Ito ang kinakailangan isinasaayos bago dumating ang mga dadalo.</strong></p>
+      <label><input type="radio" name="q4" value="a"> Set-up </label><br>
+      <label><input type="radio" name="q4" value="b"> Pagpaplano  </label><br>
+      <label><input type="radio" name="q4" value="c"> Pagpapatupad </label><br><br>
+
+
+      <p><strong>5. Nakalahad dito ang magiging takbo ng kabuuan ng programa kasama ang mga iskrip ng mga isinasagawang aktibidad.  </strong></p>
+      <label><input type="radio" name="q5" value="a"> Daloy ng Programa </label><br>
+      <label><input type="radio" name="q5" value="b"> Pagpaplano </label><br>
+      <label><input type="radio" name="q5" value="c"> Pagpapatupad </label><br><br>
+
+      <p><strong>6.Ito ang pagkakataon ng bawat isa na kung saan maaaring balikan ang mga naging pagkukulang sa ginawang worksyap.  </strong></p>
+      <label><input type="radio" name="q6" value="a">Set-up  </label><br>
+      <label><input type="radio" name="q6" value="b"> Pagtataya </label><br>
+      <label><input type="radio" name="q6" value="c"> Pagpaplano</label><br><br>
+      <p><strong>7.Ito ay kinakailangan maayos ang pagkakasunod-sunod ng bawat gawain at naiuugnay ito sa bawat isa. </strong></p>
+      <label><input type="radio" name="q7" value="a">Bumuo ng layuning kayang makamit sa gagawing kumperensiya </label><br>
+      <label><input type="radio" name="q7" value="b">  Bumuo ng daloy ng programa  </label><br>
+      <label><input type="radio" name="q7" value="c"> Paglalatag ng kinakailangan na Badyet</label><br><br>
+
+      <p><strong>8. Isa sa mga kailangang gawin ang paghingi ng tulong at suporta kabilang ang mga miyembro ng organisasyon</strong></p>
+      <label><input type="radio" name="q8" value="a">Bumuo ng layuning kayang makamit sa gagawing kumperensiya </label><br>
+      <label><input type="radio" name="q8" value="b">Magtalaga ng mga taong mangunguna sa mga gawain at lumikha ng mga komite  </label><br>
+      <label><input type="radio" name="q8" value="c"> Paglalatag ng kinakailangan na Badyet </label><br><br>
+
+      <p><strong>9.  Kinakailangan magmumula sa lahat ng inaasahang pagkukunan laban sa inaasahang gastos. Kailangan itong pag-aralan nang mabuti upang makatipid sa mga gugugulin.  </strong></p>
+      <label><input type="radio" name="q9" value="a"> Gumawa ng plano ng mga dapat gawin na nakasad kung sino at kailan dapat tapusin.</label><br>
+      <label><input type="radio" name="q9" value="b"> Paglalatag ng kinakailangan na Badyet.</label><br>
+      <label><input type="radio" name="q9" value="c"> Magtalaga ng mga taong mangunguna sa mga gawain at lumikha ng mga komite </label><br><br>
+
+      <p><strong>10.Ang sistematikong paggawa ngplano ng mga dapat gawin ay makatutulong upang hindi malihis ang mga inaasahang makamit.  </strong></p>
+      <label><input type="radio" name="q10" value="a">Bumuo ng layuning kayang makamit sa gagawing kumperensiya   </label><br>
+      <label><input type="radio" name="q10" value="b">Magtalaga ng mga taong mangunguna sa mga gawain at lumikha ng mga komite  </label><br>
+      <label><input type="radio" name="q10" value="c"> Paglalatag ng kinakailangan na Badyet.</label><br><br>
+
+      <button type="button" class="btn" onclick="submitQuiz15()">Isumite</button>
+    </form>
+    <p id="quizResult15" style="margin-top: 20px; font-weight: bold;"></p>
+   <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+
+<script>
+  let totalSeconds15 = 600; 
+
+  const timerElement15 = document.getElementById("timer15");
+  const quizForm15 = document.getElementById("quizForm15");
+
+  function updateTimer15() {
+    const minutes = Math.floor(totalSeconds15 / 60);
+    const seconds = totalSeconds15 % 60;
+    timerElement15.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds15 > 0) {
+      totalSeconds15--;
+    } else {
+      clearInterval(timerInterval15);
+      alert("Time's up!");
+      quizForm15.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval15 = setInterval(updateTimer15, 1000);
+</script>
+  </div>
+</div>
+
+
+<!-- LESSON CONTENT FOR LINGGO 16-->
+<div class="card hidden" id="linggo16Content">
+  <a href="linggo16.html">
+    <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 16
+    </button>
+   </a>
+  </div>
+    </div>
+
+<!-- QUIZ FOR LINGGO 16 -->
+<div class="card hidden" id="linggo16Quiz">
+  <h1>PAGSUSULIT – Linggo 16</h1>
+  <div class="lesson-content">
+    <form id="quizForm16">
+      
+<div id="timer16" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1.Ito ay tumutukoy sa elemento sa paghahanda ng pulong na kinakailangang tiyakin na ang mga kalahok ay makadadalo sa oras na itinalaga at makakarating sa lugar na pagdarausan ng pulong. Alalahaning mahalaga ang bawat oras ng mga kalahok kaya kinakailangang mahusay ang paggamit ng oras sa pulong </strong></p>
+      <label><input type="radio" name="q1" value="a">Agenda </label><br>
+      <label><input type="radio" name="q1" value="b"> Tagapag-ulat </label><br>
+      <label><input type="radio" name="q1" value="c"> Oras at Lugar</label><br><br>
+
+      <p><strong>2. Siya ang katuwang ng tagapangulo sa paghahanda ng agenda at pamamahagi ng imbitasyon sa mga kalahok at tagapag-ulat</strong></p>
+      <label><input type="radio" name="q2" value="a">Kalihim  </label><br>
+      <label><input type="radio" name="q2" value="b"> Tagapag-ulat </label><br>
+      <label><input type="radio" name="q2" value="c"> Kalahok </label><br><br>
+
+      <p><strong>3. Tumutukoy sa mga masteryales na ihahanda upang gamitin sa isasagawang pulong. </strong></p>
+      <label><input type="radio" name="q3" value="a"> Kagamitan </label><br>
+      <label><input type="radio" name="q3" value="b"> Kalahok </label><br>
+      <label><input type="radio" name="q3" value="c">Tagapagsalita . </label><br><br>
+
+      <p><strong>4. Nagsisilbing balangkas at gabay sa pagpupulong.</strong></p>
+      <label><input type="radio" name="q4" value="a">Oras at Lugar   </label><br>
+      <label><input type="radio" name="q4" value="b"> Agenda </label><br>
+      <label><input type="radio" name="q4" value="c"> Kalahok  </label><br><br>
+
+
+      <p><strong>5. Kabilang sa paghahanda ng Ulat na kinakailangan na kilalanain at alamin ang katangian, interes, kakayahan at pangangailangan ng tagapakinig.  </strong></p>
+      <label><input type="radio" name="q5" value="a">Alamin ang paksa. </label><br>
+      <label><input type="radio" name="q5" value="b"> Kilalanin ang Tagapakinig </label><br>
+      <label><input type="radio" name="q5" value="c"> Iplano ang  pagkakasunod-sunod ng ideya. </label><br><br>
+      <p><strong>6. Katuwang ng tagapangulo sa paghahanda ng agenda at ng pamamahagi ng imbitasyon sa mga kalahok at tagapag-ulat. </strong></p>
+      <label><input type="radio" name="q6" value="a"> Tagapag-ulat  </label><br>
+      <label><input type="radio" name="q6" value="b">Agenda  </label><br>
+      <label><input type="radio" name="q6" value="c">Kalihim </label><br><br>
+
+      <p><strong>7. Siya ang tagapaghatid ng datos na tatalakayin sa pagpupulong </strong></p>
+      <label><input type="radio" name="q7" value="a"> Tagapag-ulat </label><br>
+      <label><input type="radio" name="q7" value="b"> Oras at Lugar </label><br>
+      <label><input type="radio" name="q7" value="c"> Tagapangulo</label><br><br>
+
+      <p><strong>8. Tagapamagitan at tagapagtaguyod ng ideya. Siya ang nagpaplano ng pulong kabilang ang paghahanda ng agenda. </strong></p>
+      <label><input type="radio" name="q8" value="a">Tagapagulo  </label><br>
+      <label><input type="radio" name="q8" value="b">Agenda </label><br>
+      <label><input type="radio" name="q8" value="c"> Kalihim </label><br><br>
+
+      <p><strong>9.  Mahalagang maging handa ang mga materyales na gagamitin tulad ng katitikang ng naunang pulong, visual aids na gagamitin ng tagapag-ulat</strong></p>
+      <label><input type="radio" name="q9" value="a"> Kagamitan </label><br>
+      <label><input type="radio" name="q9" value="b">Kalihim </label><br>
+      <label><input type="radio" name="q9" value="c"> Tagapangulo </label><br><br>
+
+      <p><strong>10.Ito ay nagaganap sa pagitan ng isang taon tungo sa nakararaming tagapanood o tagapakinig. Ang ganitong uri ng komunikasyon ay gumagamit ng midya gaya ng radyo, telebisyon, internet at iba pa. </strong></p>
+      <label><input type="radio" name="q10" value="a"> Komunikasyong Pangmadla</label><br>
+      <label><input type="radio" name="q10" value="b"> Pag-uulat sa Maliit na Pangkat </label><br>
+      <label><input type="radio" name="q10" value="c"> Pampublikong Komunikasyon </label><br><br>
+
+      <button type="button" class="btn" onclick="submitQuiz16()">Isumite</button>
+    </form>
+    <p id="quizResult16" style="margin-top: 20px; font-weight: bold;"></p>
+   <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+
+<script>
+  let totalSeconds16 = 600; 
+
+  const timerElement16 = document.getElementById("timer16");
+  const quizForm16 = document.getElementById("quizForm16");
+
+  function updateTimer16() {
+    const minutes = Math.floor(totalSeconds16 / 60);
+    const seconds = totalSeconds16 % 60;
+    timerElement16.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds16 > 0) {
+      totalSeconds16--;
+    } else {
+      clearInterval(timerInterval16);
+      alert("Time's up!");
+      quizForm16.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval16 = setInterval(updateTimer16, 1000);
+</script>
+  </div>
+</div>
+
+
+<!-- LESSON CONTENT FOR LINGGO 17-->
+<div class="card hidden" id="linggo17Content">
+  <a href="linggo17.html">
+    <button style="font-size:28px; padding:20px 40px; background-color: #B39DDB; color:white; border:none; border-radius:10px; width:100%; height:150px;">
+      Magpatuloy sa Aralin 17
+    </button>
+   </a>
+  </div>
+    </div>
+
+<!-- QUIZ FOR LINGGO 17 -->
+<div class="card hidden" id="linggo17Quiz">
+  <h1>PAGSUSULIT – Linggo 17</h1>
+  <div class="lesson-content">
+    <form id="quizForm17">
+      
+
+<div id="timer17" style="font-size: 20px; font-weight: bold; color: red; margin-bottom: 20px;">
+  Time Left: 10:00
+</div>
+      <p><strong>1. Sino ang nagpasimula ng Kasaysayan sa telebisyon.</strong></p>
+      <label><input type="radio" name="q1" value="a">Joe Sikat  </label><br>
+      <label><input type="radio" name="q1" value="b">Rogelio Ordonez  </label><br>
+      <label><input type="radio" name="q1" value="c"> James Lindernerg</label><br><br>
+
+      <p><strong>2.Pinakamakapangyarihan na midya sa kasalukuyan.  </strong></p>
+      <label><input type="radio" name="q2" value="a"> Telebisyon </label><br>
+      <label><input type="radio" name="q2" value="b"> Telepono </label><br>
+      <label><input type="radio" name="q2" value="c"> Cellphone  </label><br><br>
+
+      <p><strong>3.Nagsisilbing imbakan ng impormasyon na tagahatid ng kaalaman .  </strong></p>
+      <label><input type="radio" name="q3" value="a"> Sender</label><br>
+      <label><input type="radio" name="q3" value="b"> Receiver </label><br>
+      <label><input type="radio" name="q3" value="c"> Tsanel </label><br><br>
+
+      <p><strong>4. Isang sikat na manunulat ng tula at piksyon, isang dating propesor. Siya ay nagpasimula sa pagkritika sa maling gamit ng mga salita sa midya</strong></p>
+      <label><input type="radio" name="q4" value="a"> Joe Sikat</label><br>
+      <label><input type="radio" name="q4" value="b">Rogelio Ordonez  </label><br>
+      <label><input type="radio" name="q4" value="c"> Rogelio Sikat  </label><br><br>
+      <p><strong>5. Siya ang pambansang alagad ng Sining at Tagapagtatag ng Linangan sa Imahen. </strong></p>
+      <label><input type="radio" name="q5" value="a">Jaime C. De Veyra  </label><br>
+      <label><input type="radio" name="q5" value="b"> Virgilio S. Almario  </label><br>
+      <label><input type="radio" name="q5" value="c">Lope K. Santos </label><br><br>
+
+      <p><strong>6. Tumutukoy sa kasalukuyang nagaganap sa loob o labas man ng bansa </strong></p>
+      <label><input type="radio" name="q6" value="a"> Variety Show</label><br>
+      <label><input type="radio" name="q6" value="b"> Drama at Komedya </label><br>
+      <label><input type="radio" name="q6" value="c"> Balita </label><br><br>
+
+      <p><strong>7.Mga palabas na naghahatid ng gawaing pantulong na sumasalamin sa reyalidad ng buhay at tumatalakay sa kultura ng isang lipunan.  </strong></p>
+      <label><input type="radio" name="q7" value="a">Dokumentaryo  </label><br>
+      <label><input type="radio" name="q7" value="b"> Balita </label><br>
+      <label><input type="radio" name="q7" value="c"> Drama at Komedya   </label><br><br>
+
+      <p><strong>8.Binubuo ng iba’t ibang tauhan  na nagsasadula ng isang kwento.   </strong></p>
+      <label><input type="radio" name="q8" value="a">Variety Show  </label><br>
+      <label><input type="radio" name="q8" value="b"> Drama at Komedya   </label><br>
+      <label><input type="radio" name="q8" value="c"> Balita  </label><br><br>
+
+      <p><strong>9. Binubuo ng pagkakaibang pagtatanghal sa musika, komedya, talk show at iba pa na pinangungunahan ng mga host ng programa. </strong></p>
+      <label><input type="radio" name="q9" value="a">Variety Show </label><br>
+      <label><input type="radio" name="q9" value="b"> Drama at Komedya   </label><br>
+      <label><input type="radio" name="q9" value="c"> Balita  </label><br><br>
+
+      <p><strong>10.Unang lisensyadong istasyon sa bansang Pennsylvania.  </strong></p>
+      <label><input type="radio" name="q10" value="a"> Kdka</label><br>
+      <label><input type="radio" name="q10" value="b">  Kkda </label><br>
+      <label><input type="radio" name="q10" value="c"> Dakk</label><br><br>
+
+      <button type="button" class="btn" onclick="submitQuiz17()">Isumite</button>
+    </form>
+    <p id="quizResult17" style="margin-top: 20px; font-weight: bold;"></p>
+   <!-- Back Button -->
+    <a href="lesson.html" class="back-button">Balik sa Kurso</a>
+
+<script>
+  let totalSeconds17 = 600; 
+
+  const timerElement17 = document.getElementById("timer17");
+  const quizForm17 = document.getElementById("quizForm17");
+
+  function updateTimer17() {
+    const minutes = Math.floor(totalSeconds17 / 60);
+    const seconds = totalSeconds17 % 60;
+    timerElement17.textContent = `Time Left: ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+    if (totalSeconds17 > 0) {
+      totalSeconds17--;
+    } else {
+      clearInterval(timerInterval17);
+      alert("Time's up!");
+      quizForm17.submit(); // auto-submit when time is up
+    }
+  }
+
+  const timerInterval17 = setInterval(updateTimer17, 1000);
+</script>
+  </div>
+</div>
+
+      
+<script>
+  function proceed() {
+    document.getElementById('loginSection').classList.add('hidden');
+    document.getElementById('menuSection').classList.remove('hidden');
+  }
+  function showWeeks(course) {
+    document.getElementById('menuSection').classList.add('hidden');
+    document.getElementById('weeksSection').classList.remove('hidden');
+    const weekButtons = document.getElementById('weekButtons');
+    weekButtons.innerHTML = '';
+
+    let weeks = [];
+    if (course === 'prelim') {
+      weeks = ['Linggo 1', 'Linggo 2', 'Linggo 3', 'Linggo 4', 'Linggo 5'];
+    } else if (course === 'midterm') {
+      weeks = ['Linggo 7', 'Linggo 8', 'Linggo 9', 'Linggo 10', 'Linggo 11'];
+    } else if (course === 'finals') {
+      weeks = ['Linggo 13', 'Linggo 14', 'Linggo 15', 'Linggo 16', 'Linggo 17'];
+    }
+
+    weeks.forEach(week => {
+      const button = document.createElement('button');
+      button.classList.add('btn');
+      button.textContent = week;
+      button.onclick = () => showLessonOptions(week);
+      weekButtons.appendChild(button);
+    });
+  }
+
+  function showLessonOptions(week) {
+    document.getElementById('weeksSection').classList.add('hidden');
+    document.getElementById('lessonSection').classList.remove('hidden');
+    sessionStorage.setItem('selectedWeek', week);
+  }
+
+  function showLessonContent() {
+  const selectedWeek = sessionStorage.getItem('selectedWeek'); // ✅ Define this first
+  if (!selectedWeek) return;
+
+  const weekNumber = selectedWeek.match(/\d+/); // ✅ Now this will work
+  const contentId = `linggo${weekNumber[0]}Content`;
+
+  document.querySelectorAll(".card").forEach(card => card.classList.add("hidden"));
+  const content = document.getElementById(contentId);
+  if (content) {
+    content.classList.remove("hidden");
+  }
+}
+
+
+
+  
+  function showQuiz() {
+  const selectedWeek = sessionStorage.getItem('selectedWeek');
+  document.getElementById('lessonSection').classList.add('hidden');
+  document.getElementById('linggo1Quiz').classList.add('hidden');
+  document.getElementById('linggo2Quiz').classList.add('hidden');
+  document.getElementById('linggo3Quiz').classList.add('hidden');
+   document.getElementById('linggo4Quiz').classList.add('hidden');
+   document.getElementById('linggo5Quiz').classList.add('hidden');
+document.getElementById('linggo7Quiz').classList.add('hidden');
+  document.getElementById('linggo8Quiz').classList.add('hidden');
+  document.getElementById('linggo9Quiz').classList.add('hidden');
+   document.getElementById('linggo10Quiz').classList.add('hidden');
+   document.getElementById('linggo11Quiz').classList.add('hidden');
+document.getElementById('linggo13Quiz').classList.add('hidden');
+  document.getElementById('linggo14Quiz').classList.add('hidden');
+  document.getElementById('linggo15Quiz').classList.add('hidden');
+   document.getElementById('linggo16Quiz').classList.add('hidden');
+   document.getElementById('linggo17Quiz').classList.add('hidden');
+
+   
+  if (selectedWeek === 'Linggo 1') { 
+    document.getElementById('linggo1Quiz').classList.remove('hidden');
+  } else if (selectedWeek === 'Linggo 2') { // ADD THIS
+    document.getElementById('linggo2Quiz').classList.remove('hidden');
+  } else if (selectedWeek === 'Linggo 3') { // ADD THIS
+    document.getElementById('linggo3Quiz').classList.remove('hidden');
+  } else if (selectedWeek === 'Linggo 4') { // ADD THIS
+    document.getElementById('linggo4Quiz').classList.remove('hidden');
+  } else if (selectedWeek === 'Linggo 5') { // ADD THIS
+    document.getElementById('linggo5Quiz').classList.remove('hidden');
+  } 
+   else if (selectedWeek === 'Linggo 7') { // ADD THIS
+    document.getElementById('linggo7Quiz').classList.remove('hidden');
+  } else if (selectedWeek === 'Linggo 8') { // ADD THIS
+    document.getElementById('linggo8Quiz').classList.remove('hidden');
+  } else if (selectedWeek === 'Linggo 9') { // ADD THIS
+    document.getElementById('linggo9Quiz').classList.remove('hidden');
+  } else if (selectedWeek === 'Linggo 10') { // ADD THIS
+    document.getElementById('linggo10Quiz').classList.remove('hidden');
+  } else if (selectedWeek === 'Linggo 11') { // ADD THIS
+    document.getElementById('linggo11Quiz').classList.remove('hidden');
+  } else if (selectedWeek === 'Linggo 13') { // ADD THIS
+    document.getElementById('linggo13Quiz').classList.remove('hidden');
+  } else if (selectedWeek === 'Linggo 14') { // ADD THIS
+    document.getElementById('linggo14Quiz').classList.remove('hidden');
+  } else if (selectedWeek === 'Linggo 15') { // ADD THIS
+    document.getElementById('linggo15Quiz').classList.remove('hidden');
+  } else if (selectedWeek === 'Linggo 16') { // ADD THIS
+    document.getElementById('linggo16Quiz').classList.remove('hidden');
+  } else if (selectedWeek === 'Linggo 17') { // ADD THIS
+    document.getElementById('linggo17Quiz').classList.remove('hidden');
+  } 
+   
+   else {
+    alert(`Wala pang pagsusulit para sa ${selectedWeek}.`);
+  }
+}
+
+  function submitQuiz() {
+    const answers = {
+      q1: 'b',
+      q2: 'c',
+      q3: 'b',
+      q4: 'b',
+      q5: 'c'
+    };
+    let score = 0;
+    for (const [key, value] of Object.entries(answers)) {
+      const selected = document.querySelector(`input[name="${key}"]:checked`);
+      if (selected && selected.value === value) score++;
+    }
+    document.getElementById('quizResult').textContent = `Nakuha mong tamang sagot: ${score} sa 5`;
+  }
+
+function submitQuiz2() {
+  const correctAnswers = {
+    q1: 'b',
+    q2: 'a',
+    q3: 'a',
+    q4: 'c',
+    q5: 'a',
+    q6: 'b',
+    q7: 'b',
+    q8: 'b',
+    q9: 'a',
+    q10: 'b'
+  };
+
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    const question = document.querySelector(`input[name="q${i}"]:checked`);
+    if (question && question.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const result = document.getElementById('quizResult2');
+  result.textContent = `Nakuha mong tamang sagot: ${score} sa 10`;
+}
+
+function submitQuiz3() {
+  const correctAnswers = {
+    q1: 'b',
+    q2: 'c',
+    q3: 'c',
+    q4: 'b',
+    q5: 'a',
+    q6: 'c',
+    q7: 'b',
+    q8: 'c',
+    q9: 'c',
+    q10: 'c'
+  };
+
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    const question = document.querySelector(`input[name="q${i}"]:checked`);
+    if (question && question.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const result = document.getElementById('quizResult3');
+  result.textContent = `Nakuha mong tamang sagot: ${score} sa 10`;
+}
+
+function submitQuiz4() {
+  const correctAnswers = {
+    q1: 'c',
+    q2: 'c',
+    q3: 'c',
+    q4: 'b',
+    q5: 'a',
+    q6: 'a',
+    q7: 'c',
+    q8: 'd',
+    q9: 'b',
+    q10: 'b'
+  };
+
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    const question = document.querySelector(`input[name="q${i}"]:checked`);
+    if (question && question.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const result = document.getElementById('quizResult4');
+  result.textContent = `Nakuha mong tamang sagot: ${score} sa 10`;
+}
+
+function submitQuiz5() {
+  const correctAnswers = {
+    q1: 'b',
+    q2: 'c',
+    q3: 'c',
+    q4: 'a',
+    q5: 'c',
+    q6: 'b',
+    q7: 'c',
+    q8: 'a',
+    q9: 'b',
+    q10: 'd'
+  };
+
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    const question = document.querySelector(`input[name="q${i}"]:checked`);
+    if (question && question.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const result = document.getElementById('quizResult5');
+  result.textContent = `Nakuha mong tamang sagot: ${score} sa 10`;
+}
+
+function submitQuiz7() {
+  const correctAnswers = {
+    q1: 'a',
+    q2: 'b',
+    q3: 'c',
+    q4: 'a',
+    q5: 'c',
+    q6: 'b',
+    q7: 'c',
+    q8: 'c',
+    q9: 'b',
+    q10: 'c'
+  };
+
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    const question = document.querySelector(`input[name="q${i}"]:checked`);
+    if (question && question.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const result = document.getElementById('quizResult7');
+  result.textContent = `Nakuha mong tamang sagot: ${score} sa 10`;
+}
+
+function submitQuiz8() {
+  const correctAnswers = {
+    q1: 'c',
+    q2: 'b',
+    q3: 'c',
+    q4: 'a',
+    q5: 'c',
+    q6: 'c',
+    q7: 'b',
+    q8: 'c',
+    q9: 'a',
+    q10: 'c'
+  };
+
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    const question = document.querySelector(`input[name="q${i}"]:checked`);
+    if (question && question.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const result = document.getElementById('quizResult8');
+  result.textContent = `Nakuha mong tamang sagot: ${score} sa 10`;
+}
+
+function submitQuiz9() {
+  const correctAnswers = {
+    q1: 'a',
+    q2: 'a',
+    q3: 'c',
+    q4: 'c',
+    q5: 'b',
+    q6: 'a',
+    q7: 'a',
+    q8: 'a',
+    q9: 'c',
+    q10: 'c'
+  };
+
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    const question = document.querySelector(`input[name="q${i}"]:checked`);
+    if (question && question.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const result = document.getElementById('quizResult9');
+  result.textContent = `Nakuha mong tamang sagot: ${score} sa 10`;
+}
+
+function submitQuiz10() {
+  const correctAnswers = {
+    q1: 'b',
+    q2: 'a',
+    q3: 'a',
+    q4: 'c',
+    q5: 'a',
+    q6: 'b',
+    q7: 'b',
+    q8: 'b',
+    q9: 'a',
+    q10: 'b'
+  };
+
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    const question = document.querySelector(`input[name="q${i}"]:checked`);
+    if (question && question.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const result = document.getElementById('quizResult10');
+  result.textContent = `Nakuha mong tamang sagot: ${score} sa 10`;
+}
+
+function submitQuiz11() {
+  const correctAnswers = {
+    q1: 'b',
+    q2: 'c',
+    q3: 'b',
+    q4: 'c',
+    q5: 'b',
+    q6: 'c',
+    q7: 'c',
+    q8: 'b',
+    q9: 'a',
+    q10: 'b'
+  };
+
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    const question = document.querySelector(`input[name="q${i}"]:checked`);
+    if (question && question.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const result = document.getElementById('quizResult11');
+  result.textContent = `Nakuha mong tamang sagot: ${score} sa 10`;
+}
+
+function submitQuiz13() {
+  const correctAnswers = {
+    q1: 'b',
+    q2: 'b',
+    q3: 'a',
+    q4: 'c',
+    q5: 'c',
+    q6: 'c',
+    q7: 'c',
+    q8: 'c',
+    q9: 'a',
+    q10: 'b'
+  };
+
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    const question = document.querySelector(`input[name="q${i}"]:checked`);
+    if (question && question.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const result = document.getElementById('quizResult13');
+  result.textContent = `Nakuha mong tamang sagot: ${score} sa 10`;
+}
+
+function submitQuiz14() {
+  const correctAnswers = {
+    q1: 'b',
+    q2: 'a',
+    q3: 'b',
+    q4: 'a',
+    q5: 'c',
+    q6: 'a',
+    q7: 'b',
+    q8: 'c',
+    q9: 'd',
+    q10: 'c'
+  };
+
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    const question = document.querySelector(`input[name="q${i}"]:checked`);
+    if (question && question.value === correctAnswers[`q${i}`]) {
+      score++;
+    }
+  }
+
+  const result = document.getElementById('quizResult14');
+  result.textContent = `Nakuha mong tamang sagot: ${score} sa 10`;
+}
+
+
+function submitQuiz15() {
+  const correctAnswers = {
+    q1: 'a',
+    q2: 'a',
+    q3: 'c',
+    q4: 'a',
+    q5: 'a',
+    q6: 'b',
+    q7: 'b',
+    q8: 'b',
+    q9: 'c',
+    q10: 'a'
+  };
+
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    for (let i = 0; i < 10; i++) {
+  const question = document.querySelector(`input[name="q${i}"]:checked`);
+  if (question && question.value === correctAnswers[`q${i}`]) {
+    score++;
+  }
+}
+
+const result = document.getElementById('quizResult15');
+result.textContent = `Nakuha mong tamang sagot: ${score} sa 10`;
+
+}
+
+function submitQuiz16() {
+  const correctAnswers = {
+    q1: 'c',
+    q2: 'a',
+    q3: 'a',
+    q4: 'b',
+    q5: 'b',
+    q6: 'c',
+    q7: 'a',
+    q8: 'a',
+    q9: 'a',
+    q10: 'a'
+  };
+
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    for (let i = 0; i < 10; i++) {
+  const question = document.querySelector(`input[name="q${i}"]:checked`);
+  if (question && question.value === correctAnswers[`q${i}`]) {
+    score++;
+  }
+}
+
+const result = document.getElementById('quizResult16');
+result.textContent = `Nakuha mong tamang sagot: ${score} sa 10`;
+
+}
+
+function submitQuiz17() {
+  const correctAnswers = {
+    q1: 'c',
+    q2: 'a',
+    q3: 'a',
+    q4: 'c',
+    q5: 'b',
+    q6: 'c',
+    q7: 'a',
+    q8: 'b',
+    q9: 'a',
+    q10: 'a'
+  };
+
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    for (let i = 0; i < 10; i++) {
+  const question = document.querySelector(`input[name="q${i}"]:checked`);
+  if (question && question.value === correctAnswers[`q${i}`]) {
+    score++;
+  }
+}
+
+const result = document.getElementById('quizResult17');
+result.textContent = `Nakuha mong tamang sagot: ${score} sa 10`;
+}
+}
+}
+}
+
+
+    
+</script>
+</div>
+</body>
+</html>
